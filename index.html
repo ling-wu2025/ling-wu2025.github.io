@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人介绍</title>
+    <!-- 引入 Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 确保 Inter 字体可用 */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
+
+    <!-- 头部区域 -->
+    <header class="bg-blue-600 text-white p-6 text-center text-4xl font-extrabold shadow-lg rounded-b-xl">
+        <h1>欢迎来到我的个人主页</h1>
+    </header>
+
+    <!-- 导航区域 -->
+    <nav class="bg-white p-4 shadow-md rounded-lg mx-auto mt-6 max-w-4xl w-11/12">
+        <ul class="flex justify-center space-x-8">
+            <li><a href="#" class="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 ease-in-out text-lg">主页</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 ease-in-out text-lg">作品集</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 ease-in-out text-lg">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主内容区域 - 包含自我介绍 -->
+    <main class="flex-grow p-8 max-w-4xl mx-auto my-8 bg-white rounded-xl shadow-xl w-11/12">
+        <section class="text-lg leading-relaxed text-gray-800">
+            <h2 class="text-3xl font-bold text-center mb-6 text-blue-700">关于我</h2>
+            <p class="mb-4">您好！我是一名充满热情、乐于学习的个体，始终对新知识和新挑战保持开放态度。我擅长<strong class="text-blue-600">快速适应新环境</strong>，并能在多元化的团队中发挥积极作用。</p>
+
+            <p class="mb-4">在我的经历中，我培养了<strong class="text-blue-600">出色的沟通能力和解决问题的技巧</strong>。我享受与人合作，共同达成目标，并相信集体的力量能创造更大的价值。无论是面对复杂项目还是日常任务，我都能保持条理清晰、注重细节，并致力于提供高质量的成果。</p>
+
+            <p>我对于<strong class="text-blue-600">持续成长</strong>有着强烈的渴望，并积极寻求提升自身技能和知识的机会。我坚信，通过不懈的努力和积极的心态，任何目标都是可以实现的。我期待能将我的能力和热情投入到有意义的工作中，与优秀的团队一同进步。</p>
+        </section>
+    </main>
+
+    <!-- 页脚区域 -->
+    <footer class="bg-gray-800 text-white p-6 text-center text-sm rounded-t-xl shadow-lg mt-auto">
+        <p>&copy; 2025 我的个人主页. 版权所有.</p>
+    </footer>
+
+    <!-- 可以在这里添加 JavaScript (如果需要) -->
+    <script>
+        // 这是一个空白的 JavaScript 区域，您可以在这里添加交互逻辑
+        // 例如：
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     console.log('网页已加载完成！');
+        // });
+    </script>
+</body>
+</html>
